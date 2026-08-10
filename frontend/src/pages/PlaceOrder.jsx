@@ -2,7 +2,9 @@ import React from 'react'
 
 function PlaceOrder() {
   return (
-    <div>PlaceOrder</div>
+    <div>
+      <h1>Place holder page</h1>
+    </div>
   )
 }
 

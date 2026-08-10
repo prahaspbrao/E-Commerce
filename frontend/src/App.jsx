@@ -9,14 +9,13 @@ import Cart from "./pages/Cart.jsx"
 import Login from "./pages/Login.jsx"
 import PlaceOrder from "./pages/PlaceOrder.jsx"
 import Orders from "./pages/Orders.jsx"
+import NavBar from './components/NavBar.jsx'
 
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
-      <h1 className="text-3xl font-bold underline blue">
-      Hello world!
-    </h1>
-
+      
+    <NavBar />
     <Routes>
       <Route path = '/' element = {<Home />} />
       <Route path='/collection' element = {<Collection />} />
